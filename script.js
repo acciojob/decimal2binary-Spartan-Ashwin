@@ -3,7 +3,7 @@ function decimalToBinary(num) {
 	let ans="";
 	while(num!=0){
 		ans+=num%2+"";
-		num=num/2;
+		num=parseInt(num/2);
 	}
 	return ans.reverse();
   
